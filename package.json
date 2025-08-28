@@ -1,9 +1,12 @@
 {
   "name": "browser-debug-mcp",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "type": "module",
   "main": "index.js",
+  "bin": {
+    "browser-debug-mcp": "./index.ts"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.ts"
